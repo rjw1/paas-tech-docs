@@ -53,7 +53,7 @@
     overflow: auto;
     position: relative;
     border: 1px solid $code-02;
-    border-radius: 3px;
+    // border-radius: 3px;
   }
 
   pre code {
@@ -63,8 +63,8 @@
 
   code {
     background: $code-01;
-    padding: 3px 6px;
-    border-radius: 3px;
+    padding: 3px 8px;
+    // border-radius: 3px;
     border-bottom: 1px solid $code-02;
 
     // Handle long strings (URLs, long variable names, etc) by allowing them
