@@ -2,7 +2,7 @@
   // Required for IE11 to render <main> correctly
   display: block;
   margin: 0 $gutter-half 10px;
-  max-width: 40em;
+  // max-width: 40em;
 
   line-height: 1.6;
 
@@ -14,6 +14,10 @@
 
   h1, h2, h3, h4, h5, h6 {
     padding-top: $gutter-half;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, ul, ol, pre  {
+    max-width: 40em;
   }
 
   img {
@@ -53,6 +57,7 @@
     overflow: auto;
     position: relative;
     border: 1px solid $code-02;
+
   }
 
   pre code {
@@ -112,6 +117,11 @@
   }
 
   td {
+    
+    &:first-child { 
+      width: 25%;
+    }
+
     p, ul, ol {
       margin: 0;
     }
