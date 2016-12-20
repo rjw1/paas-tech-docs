@@ -53,7 +53,6 @@
     overflow: auto;
     position: relative;
     border: 1px solid $code-02;
-    // border-radius: 3px;
   }
 
   pre code {
@@ -62,10 +61,12 @@
   }
 
   code {
+    font-size: 16px;
+    // Line height to match line-height of larger paragraph text
+    line-height: 30.4px;
     background: $code-01;
     padding: 3px 8px;
-    // border-radius: 3px;
-    border-bottom: 1px solid $code-02;
+    border: 1px solid $code-02;
 
     // Handle long strings (URLs, long variable names, etc) by allowing them
     // to break anywhere if required.
