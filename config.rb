@@ -1,4 +1,5 @@
 require 'lib/tech_docs_html_renderer'
+require 'middleman-unique_toc_data/lib/middleman-unique_toc_data'
 
 ###
 # Page options, layouts, aliases and proxies
@@ -36,6 +37,7 @@ end
 activate :autoprefixer
 activate :sprockets
 activate :syntax
+activate :unique_toc_data
 
 ###
 # Helpers
