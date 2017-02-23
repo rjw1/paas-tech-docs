@@ -27,6 +27,7 @@ $desktop-breakpoint: 992px !default;
 @import "modules/skip-link";
 @import "modules/technical-documentation";
 @import "modules/toc";
+@import "modules/abbr";
 
 html, body {
   margin: 0;

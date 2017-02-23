@@ -1,0 +1,17 @@
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted $grey-2;
+    cursor: help;
+    outline: 0;
+}
+
+abbr[title]:focus {
+  background-color: $yellow;
+  outline: 3px solid $yellow;
+  border-bottom: 1px dotted $black;
+}
+
+abbr[title]:focus::after {      
+  content: " (" attr(title) ")";
+}
+
