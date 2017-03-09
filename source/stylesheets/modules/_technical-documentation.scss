@@ -127,4 +127,8 @@
     background-color: $border-colour;
     color: $border-colour;
   }
+
+  abbr {
+    border-bottom: 1px dotted $text-colour;
+  }
 }

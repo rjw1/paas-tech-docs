@@ -2,6 +2,7 @@ require 'middleman-core/renderers/redcarpet'
 
 class TechDocsHTMLRenderer < Middleman::Renderers::MiddlemanRedcarpetHTML
   include Redcarpet::Render::SmartyPants
+  include Redcarpet::Render::HTMLAbbreviations
 
   def header(text, level)
     anchor = UniqueIdentifierGenerator.instance.create(text, level)
