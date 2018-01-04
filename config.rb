@@ -1,6 +1,6 @@
 require 'lib/unique_identifier_generator'
 require 'lib/unique_identifier_extension'
-require 'lib/tech_docs_html_renderer'
+#require 'lib/tech_docs_html_renderer'
 
 ###
 # Page options, layouts, aliases and proxies
@@ -8,9 +8,6 @@ require 'lib/tech_docs_html_renderer'
 
 set :markdown_engine, :redcarpet
 set :markdown,
-    renderer: TechDocsHTMLRenderer.new(
-      with_toc_data: true
-    ),
     fenced_code_blocks: true,
     tables: true,
     no_intra_emphasis: true
@@ -45,8 +42,12 @@ activate :syntax
 ###
 
 helpers do
-  require 'table_of_contents/helpers'
-  include TableOfContents::Helpers
+  def table_of_contents(resource)
+    content = File.read(resource.source_file)
+    toc_renderer = Redcarpet::Render::HTML_TOC.new
+    markdown = Redcarpet::Markdown.new(toc_renderer, nesting_level: 3) # nesting_level is optional
+    markdown.render(content)
+  end
 end
 
 configure :build do
