@@ -5,13 +5,7 @@ wrap_layout :core do
   content_for(:toc_module, "in-page-navigation")
 
   content_for :sidebar do
-	  table_of_contents(
-		  if not 'index.html'
-	          current_resource.parent
-		  else
-	          current_resource
-		  end
-    )
+	tree_to_html(data.tree)
   end
 
   html

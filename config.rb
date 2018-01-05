@@ -34,6 +34,10 @@ configure :development do
 end
 
 activate :autoprefixer
+activate :navtree do |options|
+  options.ignore_dir = ['images', 'javascripts', 'figures', 'layouts']
+  options.ignore_files = ['*.ico']
+end
 activate :sprockets
 activate :syntax
 

@@ -1,0 +1,63 @@
+---
+deploying_apps:
+  buildpacks.html.md: "/deploying_apps/buildpacks.html.md"
+  deploying_django.html.md: "/deploying_apps/deploying_django.html.md"
+  deploying_docker_image.html.md: "/deploying_apps/deploying_docker_image.html.md"
+  deploying_java.html.md: "/deploying_apps/deploying_java.html.md"
+  deploying_node_js.html.md: "/deploying_apps/deploying_node_js.html.md"
+  deploying_rails.html.md: "/deploying_apps/deploying_rails.html.md"
+  deploying_static_sites.html.md: "/deploying_apps/deploying_static_sites.html.md"
+  env_variables.html.md: "/deploying_apps/env_variables.html.md"
+  excluding_files.html.md: "/deploying_apps/excluding_files.html.md"
+  index.html.md: "/deploying_apps/index.html.md"
+  names_routes_domains.html.md: "/deploying_apps/names_routes_domains.html.md"
+  orgs_spaces_targets.html.md: "/deploying_apps/orgs_spaces_targets.html.md"
+  production_checklist.html.md: "/deploying_apps/production_checklist.html.md"
+  stopping_and_deleting_apps.html.md: "/deploying_apps/stopping_and_deleting_apps.html.md"
+deploying_services:
+  database_services.html.md: "/deploying_services/database_services.html.md"
+  index.html.md: "/deploying_services/index.html.md"
+  mysql.html.md: "/deploying_services/mysql.html.md"
+  route_services.html.md: "/deploying_services/route_services.html.md"
+  use_a_custom_domain.html.md: "/deploying_services/use_a_custom_domain.html.md"
+favicon.ico: "/favicon.ico"
+getting_started:
+  before_you_start.html.md: "/getting_started/before_you_start.html.md"
+  limitations.html.md: "/getting_started/limitations.html.md"
+  passwords.html.md: "/getting_started/passwords.html.md"
+  privacy.html.md: "/getting_started/privacy.html.md"
+  quick_setup_guide.html.md: "/getting_started/quick_setup_guide.html.md"
+  system.html.md: "/getting_started/system.html.md"
+guidance:
+  buildpacks.html.md: "/guidance/buildpacks.html.md"
+  pentest.html.md: "/guidance/pentest.html.md"
+index.html.md.erb: "/index.html.md.erb"
+index.md: "/index.md"
+managing_apps:
+  quotas.html.md: "/managing_apps/quotas.html.md"
+  redirect_all_traffic.html.md: "/managing_apps/redirect_all_traffic.html.md"
+  scaling.html.md: "/managing_apps/scaling.html.md"
+managing_users:
+  user_accounts.html.md: "/managing_users/user_accounts.html.md"
+  user_lifecycle.html.md: "/managing_users/user_lifecycle.html.md"
+monitoring_apps:
+  index.html.md: "/monitoring_apps/index.html.md"
+  logs.html.md: "/monitoring_apps/logs.html.md"
+  metrics.html.md: "/monitoring_apps/metrics.html.md"
+overview:
+  benefits.html.md: "/overview/benefits.html.md"
+  pricing.html.md: "/overview/pricing.html.md"
+  technology.html.md: "/overview/technology.html.md"
+tree.yml: "/tree.yml"
+troubleshooting:
+  index.html.md: "/troubleshooting/index.html.md"
+  line-endings.html.md: "/troubleshooting/line-endings.html.md"
+  lockouts.html.md: "/troubleshooting/lockouts.html.md"
+  port.html.md: "/troubleshooting/port.html.md"
+  postgres.html.md: "/troubleshooting/postgres.html.md"
+  ssh.html.md: "/troubleshooting/ssh.html.md"
+  tracing.html.md: "/troubleshooting/tracing.html.md"
+using_ci:
+  index.html.md: "/using_ci/index.html.md"
+  jenkins.html.md: "/using_ci/jenkins.html.md"
+  travis.html.md: "/using_ci/travis.html.md"
