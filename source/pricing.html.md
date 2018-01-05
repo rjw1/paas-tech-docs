@@ -1,3 +1,9 @@
+---
+title:     Pricing
+id:        pricing
+navigator: false
+order: 120
+---
 ## Pricing
 
 GOV.UK PaaS will initially operate using a freemium pricing model.

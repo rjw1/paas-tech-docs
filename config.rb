@@ -34,10 +34,10 @@ configure :development do
 end
 
 activate :autoprefixer
-activate :navtree do |options|
-  options.ignore_dir = ['images', 'javascripts', 'figures', 'layouts']
-  options.ignore_files = ['*.ico']
-  options.promote_files = ['index.html.md.erb']
+activate :MiddlemanPageGroups do |config|
+  config.strip_file_prefixes = true
+  config.extend_page_class = true
+  config.nav_toc_index_class = 'toc__list'
 end
 activate :sprockets
 activate :syntax
@@ -45,15 +45,6 @@ activate :syntax
 ###
 # Helpers
 ###
-
-helpers do
-  def table_of_contents(resource)
-    content = File.read(resource.source_file)
-    toc_renderer = Redcarpet::Render::HTML_TOC.new
-    markdown = Redcarpet::Markdown.new(toc_renderer, nesting_level: 3) # nesting_level is optional
-    markdown.render(content)
-  end
-end
 
 configure :build do
   activate :minify_css

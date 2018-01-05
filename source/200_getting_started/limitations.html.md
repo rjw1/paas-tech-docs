@@ -1,3 +1,9 @@
+---
+title:     Limitations
+id:        limitations
+navigator: false
+order: 260
+---
 ##Limitations
 
 While GOV.UK PaaS is built using Cloud Foundry technology, we don't support all Cloud Foundry features. This section explains some Cloud Foundry features that are not enabled, as well as some limitations of the beta phase.

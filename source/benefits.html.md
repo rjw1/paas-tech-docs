@@ -1,3 +1,10 @@
+---
+title:     Benefits
+id:        benefits
+navigator: false
+order: 110
+---
+
 ## Benefits
 
 Right now, development teams spend considerable time and money setting up all the components required to host a government service. With GOV.UK PaaS, development teams can save on this effort by using a hosting stack that’s already been developed.

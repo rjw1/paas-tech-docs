@@ -1,3 +1,9 @@
+---
+title:     System Status and Alerting
+id:        system-status
+navigator: false
+order: 250
+---
 ##System status, alerts and updates
 
 ### Platform availability

@@ -1,3 +1,9 @@
+---
+title:     Get started
+id:        get-strted
+navigator: false
+order: 210
+---
 #Get started
 
 ## PaaS requirements
