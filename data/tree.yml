@@ -1,4 +1,5 @@
 ---
+index.html.md.erb: "/index.html.md.erb"
 deploying_apps:
   buildpacks.html.md: "/deploying_apps/buildpacks.html.md"
   deploying_django.html.md: "/deploying_apps/deploying_django.html.md"
@@ -31,7 +32,6 @@ getting_started:
 guidance:
   buildpacks.html.md: "/guidance/buildpacks.html.md"
   pentest.html.md: "/guidance/pentest.html.md"
-index.html.md.erb: "/index.html.md.erb"
 index.md: "/index.md"
 managing_apps:
   quotas.html.md: "/managing_apps/quotas.html.md"

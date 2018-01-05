@@ -37,6 +37,7 @@ activate :autoprefixer
 activate :navtree do |options|
   options.ignore_dir = ['images', 'javascripts', 'figures', 'layouts']
   options.ignore_files = ['*.ico']
+  options.promote_files = ['index.html.md.erb']
 end
 activate :sprockets
 activate :syntax
