@@ -1,3 +1,10 @@
+---
+title:  Deploying apps
+id:  deploying-apps
+navigator: false
+order:  201
+---
+
 # Deploying apps
 
 ## Deployment overview
@@ -43,3 +50,5 @@ In this situation, any requests made to the `http://` protocol will be
 automatically redirected to the base HTTPS version of that URL. The original
 query path and query parameters will be removed. This prevents a site from
 repeatedly redirecting back to the HTTP protocol without the user noticing.
+
+

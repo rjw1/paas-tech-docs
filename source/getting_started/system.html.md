@@ -1,10 +1,11 @@
 ---
-title:     System Status and Alerting
-id:        system-status
+title:  System status
+id:  alerts and updates
 navigator: false
-order: 250
+order:  system, 104,
 ---
-##System status, alerts and updates
+
+## System status, alerts and updates
 
 ### Platform availability
 

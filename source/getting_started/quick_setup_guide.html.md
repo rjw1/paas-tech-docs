@@ -1,9 +1,10 @@
 ---
-title:     Quick Setup Guide
-id:        quick-setup-guide
+title:  Quick setup guide
+id:  quick-setup
 navigator: false
-order: 230
+order:  102
 ---
+
 ## Quick setup guide
 
 ### Getting an account

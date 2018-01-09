@@ -1,0 +1,17 @@
+source/benefits.html.md, Benefits, benefits, 2,
+source/technology.html.md, Technology, technology, 3,
+source/pricing.html.md, Pricing, pricing, 4,
+source/getting_started/index.html.md, Get started, get-started, 101,
+source/getting_started/quick_setup_guide.html.md, Quick setup guide, quick-setup, 102,
+source/getting_started/passwords.html.md, Choosing passwords, passwords, 103,
+source/getting_started/system.html.md, System status, alerts and updates, system, 104,
+source/getting_started/limitations.html.md, Limitations, limitations, 105,
+source/getting_started/privacy.html.md, Privacy policy, privacy-policy, 106,
+source/deploying_apps/index.html.md, Deploying apps, deploying-apps, 201
+source/using_ci/index.html.md, Configuring a custom continuous integration (CI) system, using-ci, 301
+source/deploying_services/index.html.md, Deploy a backing or routing service, deploying-services, 401
+source/managing_apps/index.html.md, Managing apps, managing-apps, 501
+source/monitoring_apps/index.html.md, Monitoring apps, monitoring-apps, 601
+source/managing_users/index.html.md, Managing users, managing-users, 701
+source/guidance/index.html.md, Guidance, guidance, 801
+source/troubleshooting/index.html.md, Troubleshooting, troubleshooting, 901

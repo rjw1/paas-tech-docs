@@ -1,10 +1,11 @@
 ---
-title:     Get started
-id:        get-strted
+title:  Get started
+id:  get-started
 navigator: false
-order: 210
+order:  101
 ---
-#Get started
+
+# Get started
 
 ## PaaS requirements
 

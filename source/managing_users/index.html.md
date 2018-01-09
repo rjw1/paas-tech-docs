@@ -1,16 +1,9 @@
-# Managing users
-
-## User management overview
-
-GOV.UK PaaS relies on the Cloud Foundry user management system to determine what each individual tenant user account can do.
-
-Note that the "users" we're talking about here are members of your team who use the command-line tool to manage apps on the PaaS, **not** the end users of your apps.
-
-In this section, we'll cover the most common roles and describe what they mean for how you use the PaaS.
-
-For full details about Cloud Foundry roles, see [the Cloud Foundry documentation](https://docs.cloudfoundry.org/concepts/roles.html) [external link].
-
-## User roles
+---
+title:  Managing users
+id:  managing-users
+navigator: false
+order:  701
+---
 
 There are multiple **roles** that a user can have. These are always defined in relation to an [organisation](/#organisations) or a [space](/#spaces). A user can have different roles in different orgs or spaces. A user can have more than one role within the same org or space.
 
@@ -49,3 +42,4 @@ If you need the Org Manager role to be added to a user account, contact us at [g
 
 ### Space Auditor
 Space Auditors can view spaces but cannot edit them. This role is useful for viewing app data without modifying it, for example, monitoring time-series metrics data.
+

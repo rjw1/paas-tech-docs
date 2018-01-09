@@ -1,9 +1,10 @@
 ---
-title:     Choosing Passwords
-id:        choosing-passwords
+title:  Choosing passwords
+id:  passwords
 navigator: false
-order: 240
+order:  103
 ---
+
 ##Choosing passwords
 
 When setting a password for your GOV.UK PaaS account, it is important to choose one that is both unique and resistant to attack. 

@@ -1,3 +1,10 @@
+---
+title:  Guidance
+id:  guidance
+navigator: false
+order:  801
+---
+
 # Guidance
 
 ## Buildpacks

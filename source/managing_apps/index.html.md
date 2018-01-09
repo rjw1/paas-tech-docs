@@ -1,16 +1,9 @@
-# Managing apps
-
-## Scaling
-
-The Cloud Foundry technology makes it easy to scale your application to meet increasing demand. Scaling does not happen automatically; you have to use the commands described below.
-
-Note that the maximum resources you can use will be limited by your organization quotas. You can view them by running:
-
-``cf quotas``
-
-from the command line.
-
-If you are anticipating a spike in demand for a service hosted on GOV.UK PaaS, please contact us well in advance at [gov-uk-paas-support@digital.cabinet-office.gov.uk](mailto:gov-uk-paas-support@digital.cabinet-office.gov.uk).
+---
+title:  Managing apps
+id:  managing-apps
+navigator: false
+order:  501
+---
 
 ### Increasing instances
 
@@ -49,3 +42,4 @@ This command increases the disc space limit for an app to 512 megabytes:
 ### More about scaling
 
 For more details, see [Scaling an Application Using cf scale](http://docs.cloudfoundry.org/devguide/deploy-apps/cf-scale.html) [external link] in the Cloud Foundry docs.
+

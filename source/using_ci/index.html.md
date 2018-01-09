@@ -1,3 +1,10 @@
+---
+title:  Configuring a custom continuous integration (CI) system
+id:  using-ci
+navigator: false
+order:  301
+---
+
 # Configuring a custom continuous integration (CI) system
 
 Setting up a CI service helps you make sure your team are delivering new features without breaking existing functionality. CI will deploy software automatically, but only if the tests pass. This helps you to iterate code faster and with greater confidence, a huge benefit once the codebase becomes larger and more complex.
@@ -22,3 +29,4 @@ In order to avoid developer credentials leaking, particularly those with admin r
 To request a PaaS user account for a CI service, contact us at [gov-uk-paas-support@digital.cabinet-office.gov.uk](mailto:gov-uk-paas-support@digital.cabinet-office.gov.uk) and tell us the email address of the CI user. This should be a unique email address, not already used by another PaaS account. If other people within your team need to be able to reset the password then we recommend that you use a group email address that they also receive the email for.
 
 We set up user accounts for CI services in the same way as user accounts for people; the accounts have the `SpaceDeveloper` role in the `sandbox` space.
+

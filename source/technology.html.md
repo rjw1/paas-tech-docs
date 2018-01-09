@@ -1,9 +1,10 @@
 ---
-title:     Technology
-id:        technology
+title:  Technology
+id:  technology
 navigator: false
-order: 130
+order:  3
 ---
+
 ## Technology
 
 GOV.UK PaaS uses Cloud Foundry and Amazon Web Services (AWS).

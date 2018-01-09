@@ -1,16 +1,9 @@
-# Deploy a backing or routing service
-
-Many 12-factor applications rely on backing services such as a database, an email delivery service or a monitoring system. Routing services can be used to proxy and perform preprocessing on application requests such as caching, rate limiting or authentication.
-
-In Cloud Foundry, backing and routing services are referred to as 'services' and are available through the Cloud Foundry ``cf marketplace`` command. GOV.UK PaaS enables you to create a backing service and bind it to your app. The available backing services are detailed below.
-
-## PostgreSQL
-
-PostgreSQL is an object-relational database management system. It is open source and designed to be extensible; currently the postgis and uuid-ossp extensions are enabled.
-
-## MySQL
-
-MySQL is an open source relational database management system that uses Structured Query Language (SQL) and is backed by Oracle.
+---
+title:  Deploy a backing or routing service
+id:  deploying-services
+navigator: false
+order:  401
+---
 
 ## MongoDB
 
@@ -49,3 +42,17 @@ Cloud Foundry enables tenants to define a [user-provided service instance](https
 ### Future services
 
 If you need a particular backing service that we don't yet support, please let us know at [gov-uk-paas-support@digital.cabinet-office.gov.uk](mailto:gov-uk-paas-support@digital.cabinet-office.gov.uk).
+---
+title:  Deploy a backing or routing service
+id:  deploying-services
+navigator: false
+order:  400
+---
+
+---
+title:  Deploy a backing or routing service
+id:  deploying-services
+navigator: false
+order:  400
+---
+

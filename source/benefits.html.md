@@ -1,8 +1,8 @@
 ---
-title:     Benefits
-id:        benefits
+title:  Benefits
+id:  benefits
 navigator: false
-order: 110
+order:  2
 ---
 
 ## Benefits
