@@ -1,4 +1,4 @@
-## Failed login rate limit
+## Too many failed login attempts
 
 If your Cloud Foundry account makes too many failed login attempts within a short period of time, your account will be locked for security reasons. While the account is locked, even the correct login details will not work. 
 
