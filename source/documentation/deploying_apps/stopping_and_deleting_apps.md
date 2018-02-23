@@ -41,12 +41,17 @@ If you accidentally delete your app without the ``-r`` option, you can delete th
 ``cf delete-route [domain name] --hostname [hostname]``
 
 ### Deleting services
-Before deleting your app, you will need to delete any services you have provisioned for it.
 
-You can check the details of these by using the ``cf services`` command to see all active services in the current space. You will be able to see which services are bound *only* to your app - don’t delete services that other apps are also using.
+Run `cf services` to check all active services in the current space. You must only delete services that are only bound to your app.
 
-You can then use this information to run
+Delete the selected services by running the following code:
 
-``cf delete-service [SERVICE INSTANCE]``
+```
+cf delete-service SERVICE_INSTANCE
+```
 
-When all services are removed you can then delete your app, as above.
+where `SERVICE_INSTANCE` is the name of the service you are deleteing, for example:
+
+```
+cf delete-service x y z
+```
